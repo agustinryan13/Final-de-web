@@ -1,0 +1,352 @@
+/**
+* Index.html
+**/
+body {    
+    background-image: url(../img/fondo.jpg);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100px;
+    margin-bottom: 100px;
+    clear:both;
+   
+    
+}
+.carousel-inner{
+    
+    height: 100%;
+    width: 100%;        
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;  
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3.438em;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3.438em;
+  color: white;
+}
+
+.seccion1{
+	margin-top:5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;    
+}
+.ejemplo{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+.fuentehead{    
+    
+    font-family: "Clauster";        
+}
+.tamanohead{    
+    font-size: 1.875em;
+    font-weight: bold;   
+}
+.gris{    
+    background-color: grey;  
+    }
+.blan{    
+    color: white;
+}
+.loginn{
+    display: block;    
+    padding: 5px 20px;   
+    border: 2px solid;
+    border-color: #ff0060;    
+    background: black ;    
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.seccion2{
+	margin-top:30px;
+	margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+.formtext{    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:whitesmoke;
+    font-size: 1.375em;
+}
+.foot{    
+    color:white;    
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom:5px;
+    margin-top:5px;    
+}
+.tienda{    
+    padding-top: 20px;    
+}
+.tpop {    
+    font-size: 1.75em;
+    font-weight: bold;
+    color:white;        
+}
+.bordestienda{   
+    border: 2px solid;
+    border-color: #ff0060;    
+    background: black ;    
+    border-radius: 25px;    
+}
+.clases{
+    margin-top: 15px;
+    margin-bottom:inherit;
+    font-size: 1.563em;
+    color:white;
+}
+hr {    
+    margin:auto;
+    color:white;
+    background-color:white;
+    width:100%;
+    margin-right: auto;    
+}
+.clases2 {
+    color:grey;
+    font-size: 1.375em;    
+}
+.seccion3{    
+    margin-top:auto;    
+    color:white;
+    font-weight: bold;     
+}
+.seccion4{   
+    margin-top:auto;    
+    color:gray;
+    font-weight: bold;    
+}
+.tienda{    
+    padding-top:8px;    
+}
+.busqueda{ 
+    margin-top:3px;
+    margin-bottom: 2px;
+    text-align: left;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:4px;
+    padding-right:4px; 
+    background-color: gray;
+    border-radius: 5px;
+    border-color: aqua;    
+}
+.margenn{    
+    margin-top:10px;
+    margin-bottom:-5px;    
+}
+.caja {    
+    border-radius: 15px;
+    padding-top:15px;
+
+}
+.mensaje {
+    font-size:1.25em;
+    color:#767676;    
+    background-color:#d3d3d3;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 130px;
+}
+.nombre {
+    font-size:1.25em;    
+    color:#767676;    
+    background-color: #d3d3d3;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+}
+.mail {
+    font-size:1.25em;
+    color:#767676;    
+    background-color: #d3d3d3;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 16px;    
+}
+.info {
+    
+    padding-bottom: 30px; 
+}
+.espacio {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px; 
+}
+
+.contenido {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 1.375em;
+    font-weight: 500;
+    color:white;
+}
+.titulo {    
+    margin-top:5%;
+    padding-left: 50px;
+     font-size: 1.375em;
+    color:gray;
+}
+.m1 {
+    font-size: 1.25em;
+    color:white;
+}
+.envv{        
+    font-size:1.375em;
+    display: block;    
+    padding: 5px 20px;   
+    border: 2px solid;
+    border-color: #ff0060;    
+    background: black ;    
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top:7px;
+}
+.contenido1 {    
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 1.375em;
+    font-weight: 500;
+    color:#ff0060;    
+}
+.loginn:hover{    
+    background-color:#ff0060;
+    color:white;    
+}
+.envv:hover{    
+    background-color:#ff0060;
+    color:white;    
+}
+
+.headdd {    
+    color:gray;
+}
+.nn {    
+    color:white;
+}
+.nn1 {    
+    color:white;
+    font-size: 1.188em;
+    margin-top:5px;
+}
+.leer {    
+    color:darkslategray;
+    font-size: 1.188em;
+    margin-bottom: inherit;    
+}
+.marg {
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+placeholder{    
+    font-style:italic;
+}
+.juego {    
+    color:white;
+    font-weight: bold;
+    font-size:0.938em;
+}
+.devs {    
+    color:gray;
+    font-weight: bold;
+    font-size:0.938em;
+}
+.tpop1 {        
+    font-size: 1.563em;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 8px;
+}
+.boxx {
+    margin-bottom: 0px;
+}
+.seccion {    
+    margin-top:30px;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+}
+.jc {    
+    justify-content: center;
+}
+.mdmarg {    
+    width: 100%; 
+
+}
+.dist {
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;    
+}
+.todo {    
+    height: 100%;
+    width: 100%;
+}
+.wiw {
+    width:100%;    
+}
+.wiw2 {
+    width:100%;    
+}
+.wiw3 {
+    width:100%;    
+    min-width: 50%;
+}
+.textolupa {
+    font-style: italic;
+}
+.caja2 {
+    background-color: darkgrey;
+    border-radius: 12px; 
+    width:100%;   
+}
+.tpop2 {
+    margin-top:5px;
+    width:100%;
+    display:inline;
+}
+footer{    
+    background-color:grey;
+    display:block;
+}
+.footers {
+    padding-top:8px;
+}
+.redes {
+    margin-top:8px;
+}
+.nn2 {        
+    color:white;
+    font-size: 1.188em;
+    margin-top:5px;
+}
+
+
+
+
+#cont {
+   
+    padding-top:20px;
+}
